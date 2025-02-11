@@ -1,0 +1,11 @@
+# Python 仮想環境フォルダ
+backend_env/
+venv/
+
+# IDE 設定ファイル
+.vscode/
+.idea/
+
+# Pythonキャッシュ
+__pycache__/
+*.pyc
