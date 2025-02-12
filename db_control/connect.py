@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # SSL証明書のパス設定（相対パスを使用）
-ssl_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'DigiCertGlobalRootCA.crt.pem')
+ssl_path = "/home/site/wwwroot/DigiCertGlobalRootCA.crt.pem"
 
 # データベース接続情報
 DB_USER = os.getenv('DB_USER')
